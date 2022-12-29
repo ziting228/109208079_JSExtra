@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue"></body>
+
+ <script>
+    var question = prompt("Input data");
+    var secQuestion = prompt("Input a char to search");
+    document.write("Your input data is: ");
+    document.write(question + "<br>");
+    document.write("You are searching for: ");
+    document.write(secQuestion+ "<br>");
+
+    document.write("First index: ")
+    document.write(question.indexOf(secQuestion)+ "<br>");
+
+    document.write("Last index: ");
+    document.write(question.lastIndexOf(secQuestion)+ "<br>");
+
+    document.write("Start from the third: ");
+    document.write(question.indexOf(secQuestion,3) + "<br>");
+
+
+</script>
+</html>
